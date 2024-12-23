@@ -41,3 +41,15 @@
   border-color: transparent;
   outline: none;
 }
+
+.commands-list :any-link.disabled {
+  pointer-events: none;
+  color: var(--light);
+  background: transparent !important;
+  border-color: var(--color);
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  border: 1px solid var(--light);
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,7 @@
+:: Chapter 3
+
+* [[End of Chapter 3]]
+
+:: End of Chapter 3
+
+<% StoryFlags.set("unlockedChapter2"); %>
