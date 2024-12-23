@@ -63,3 +63,34 @@
   font-display: swap;
   src: url(assets/font/IBMPlexSans-Italic.ttf) format('truetype');
 }
+
+@font-face { 
+  font-family: 'IBM Plex Serif';
+  font-weight: bold;
+  font-display: swap;
+  src: url(assets/font/IBMPlexSerif-Bold.otf) format('opentype');
+ }
+@font-face { 
+  font-family: 'IBM Plex Serif';
+  font-weight: light;
+  font-display: swap;
+  src: url(assets/font/IBMPlexSerif-Light.otf) format('opentype');
+ }
+@font-face { 
+  font-family: 'IBM Plex Serif';
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/font/IBMPlexSerif-Medium.otf) format('opentype');
+ }
+@font-face { 
+  font-family: 'IBM Plex Serif';
+  font-weight: 300;
+  font-display: swap;
+  src: url(assets/font/IBMPlexSerif-Regular.otf) format('opentype');
+ }
+@font-face { 
+  font-family: 'IBM Plex Serif';
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/font/IBMPlexSerif-Text.otf) format('opentype');
+ }

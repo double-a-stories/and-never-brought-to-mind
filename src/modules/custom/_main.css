@@ -4,18 +4,18 @@
 
 :root {
   /* Body text color */
-  --color: #111;
+  --color: #222;
   /* Body background gradient color */
-  --background: #eee;
+  --background: #fed;
   /* Semi-transparent decoration color */
   --light: rgba(0, 0, 0, 20%);
   /* Link hover color */
   --accent: #d93;
   /* Body font */
-  --font-stack: var(--font-family-sans-serif);
+  --font-stack: var(--font-family-serif);
   --font-family-sans-serif: "IBM Plex Sans", sans-serif;
   --font-family-monospace: ui-monospace, Menlo, Monaco, "Courier New", monospace;
-  --font-family-serif: "Times New Roman", "Tinos", "Times", serif;
+  --font-family-serif: "IBM Plex Serif", "Times New Roman", "Tinos", "Times", serif;
   --bg-rotation: 0deg;
 }
 
