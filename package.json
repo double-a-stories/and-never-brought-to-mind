@@ -1,6 +1,6 @@
 {
-  "name": "life-of-the-party",
-  "version": "0.8.0",
+  "name": "and-never-brought-to-mind",
+  "version": "0.1.0",
   "description": "A Furry Vore Adventure",
   "scripts": {
     "start": "npm run watch",
@@ -8,7 +8,7 @@
     "build": "run-s build:*",
     "get_modules": "cp -f node_modules/lockr/lockr.min.js node_modules/howler/dist/howler.min.js node_modules/twemoji/dist/twemoji.min.js src/modules/vendor/",
     "build:twee": "tweego -m src/modules/ --head=src/head-content.html -o dist/index.html src/twee",
-    "build:package": "zip -r \"life-of-the-party-v\"$npm_package_version\"-dist.zip\" dist",
+    "build:package": "zip -r \"and-never-brought-to-mind-v\"$npm_package_version\"-dist.zip\" dist",
     "proof": "run-s proof:*",
     "proof:mk": "mkdir -p proofing",
     "proof:poof": "npm run build:twee -- -f poof -o proofing/poof.html",
@@ -30,14 +30,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/double-a-stories/life-of-the-party.git"
+    "url": "git+https://github.com/double-a-stories/and-never-brought-to-mind.git"
   },
   "author": "Double-A",
   "license": "MIT-0",
   "bugs": {
-    "url": "https://github.com/double-a-stories/life-of-the-party/issues"
+    "url": "https://github.com/double-a-stories/and-never-brought-to-mind/issues"
   },
-  "homepage": "https://github.com/double-a-stories/life-of-the-party#readme",
+  "homepage": "https://github.com/double-a-stories/and-never-brought-to-mind#readme",
   "dependencies": {
     "twemoji": "^14.0.0",
     "howler": "^2.2.4",

@@ -14,11 +14,10 @@
 }
 
 :: Misc story variables [script]
-story.version = `v0.8.0`;
+story.version = `v0.1.0`;
 
 :: StoryTitle
-Life of the Party
-
+And Never Brought to Mind
 
 :: Start [no_heading start menu]
 <style>
@@ -34,20 +33,20 @@ tw-passage > * {
 StoryFlags.set("unlockedChapter5")
 
 const chapters = [
-  [5, "Chapter 5"],
-  [4, "Chapter 4"],
-  [3, "Chapter 3"],
-  [2, "Chapter 2"],
-  [1, "Chapter 1"]
+  [5, "Chapter 5", "Chapter 5 – Introduction"],
+  [4, "Chapter 4", "Chapter 4 – Houston"],
+  [3, "Chapter 3", "Chapter 3 – Marnie"],
+  [2, "Chapter 2", "Chapter 2 – Dashel"],
+  [1, "Chapter 1", "Chapter 1 – Lenox"]
 ];
 %>
 
 <ul class="commands-list">
-<% for (const [i, name] of chapters) {
+<% for (const [i, name, text] of chapters) {
     const unlocked = StoryFlags.isSet(`unlockedChapter${i}`);
     %>
     <li>
-    <a class="<%= !unlocked ? "disabled" : "" %>" href="javascript:void(0)" data-passage="<%= name %>"><%= name %></a>
+    <a class="<%= !unlocked ? "disabled" : "" %>" href="javascript:void(0)" <%= !unlocked ? "" : `data-passage="${name}"` %>><%= text %></a>
     </li>
     <%
     }
@@ -80,6 +79,6 @@ If you choose to continue, you do so **at your own risk**.
 
 :: Logo
 <div class="logo">
-<h1 class="story-title">And Never Brought<br>to Mind</h1>
-<p class="story-subtitle">An 18+<br>Furry Vore Adventure<br>by Double-A</p>
+<h1 class="story-title">And Never Brought to Mind</h1>
+<p class="story-subtitle">An 18+ Furry Vore Adventure by Double-A</p>
 </div>

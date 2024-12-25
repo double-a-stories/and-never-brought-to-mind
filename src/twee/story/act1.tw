@@ -1,9 +1,273 @@
 :: Chapter 5
+Your name is Hollis Freely (they/he). You are a gray rabbit, age 25. You are wearing round glasses and a cute blue business suit which is starting to get tight around your middle. In your paw is a little martini glass.
 
-* [[End of Chapter 5]]
+It's New Year's Eve, close to midnight. You're at the company holiday party, standing on the sidelines, lost in a bustling crowd of unfamiliar faces.
 
-:: End of Chapter 5
+What will you do?
+
+* [[Sip drink.]]
+* [[Check watch.]]
+
+:: Sip drink.
+Vodka, gin, cranberry juice, and mint. Yum. You better take it slow though, you're tiny.
+
+* [[Check watch.]]
+
+:: Check watch.
+
+You got here at 11:00 PM. Last time you checked your watch it was 11:10 PM, but now it's 11:13 PM.
+
+You're ready to get this night over with.
+
+* [[Look around.]]
+
+:: Look around.
+You're in a luxury ballroom on the 11th floor of a skyscraper, which the company rents out every year. It's decorated with crystal chandeliers, silver candelabras, and gold balloons. Crudités, cake and cocktails abound.
+
+About 60 or 70 anthros in suits, dresses, pearls and ties are standing around, chatting and schmoozing. Mostly large species, mostly preds, mostly older than you. A panther and a lion, both important looking, brush past you without noticing.
+
+In the corner, a stout black cat plays some light jazz on a grand piano. You wish your roommate was here. She'd made a joke about how her pianist is bigger. 
+
+* [[Company?]]
+* [[Roommate?]]
+
+:: Company?
+For the last 8 months, you've been a copywriter for Genutect Mechanical Solutions LLC.. You mostly write blurbs about Sustainability to go on top of collages of windmills, solar farms, and grassy fields. This is odd because the company doesn't actually make or have any of those things. You once asked your boss about this and she just shrugged and said flatly, "You like getting paid, right?"
+
+It's hard enough finding work as a bunny, since companies assume you're gonna get digested in some broom closet after a week. Which is not an unfair assumption. That's part of why you've had such a hard time making work friends. The turnover rate for prey employees is very high, and the preds... tend to look at you funny.
+
+You wish you had someone to talk to right now.
+
+* [[Look for familiar faces.]]
+
+:: Roommate?
+Your roommate is a hyena. You met her in your first year of college. Well, you met her at a vore party after you dropped out of your first year of college. You'd rather <a href="https://double-a-stories.github.io/life-of-the-party">forget that awful night</a>. You almost died like eight times.
+
+She's a bit of a mess emotionally, but you appreciate her presence. Plus, smelling like her seems to keep other preds off your back, which is nice. They tend to assume you're marked, but actually she's just too lazy to separate your laundry from hers.
+
+You're *pretty* sure she's not gonna eat you... permanently, anyway.
+
+You wish you had someone to talk to right now.
+
+* [[Look for familiar faces.]]
+
+:: Look for familiar faces.
+
+You really should know someone here... But your only real friend at the company is your coworker Houston, who does web design. And you suppose your manager Lenox—more of an acquaintance. But you can't pick either of them out of the throng.
+
+You feel your phone buzz in your pocket. Oops, looks like you have three missed messages.
+
+* [[Answer Lenox.]]
+* [[Answer Ana.]]
+* [[Answer Houston.]]
+
+
+:: Answer Lenox.
+
+You open the text from your boss.
+
+<div class="textchat">
+<p class="them">Hollis Freely, are you at the party.</p>
+<p class="them">I'd like to discuss something.</p>
+<p class="you">Yeah, I'm here. Where are you?</p>
+<p class="them">• • •</p>
+</div>
+
+A typing indicator appears, and then disappears.
+
+<div class="textchat">
+<p class="you">Hello?</p>
+</div>
+
+No answer. Mysterious.
+
+* [[Answer Ana.]]
+
+:: Answer Ana.
+
+You open the text from your roommate Ana.
+
+<div class="textchat">
+<p class="them">howsit going?</p>
+<p class="you">Blah, this is so boring. :X</p>
+<p class="them">aw, don't pout bunnybutt.</p>
+<p class="them">try to get into the (mandatory) holiday spirit.</p>
+<p class="them">at least there's free food and stuff.</p>
+<p class="you">Plus one whole free cocktail!</p>
+<p class="them">wow, luxury.</p>
+<p class="them">don't forget about us from ur ivory tower.</p>
+<p class="them">oh, and don't get shitfaced just because you're nervous. idiot.</p>
+<p class="you">Lol, trying.</p>
+</div>
+
+* [[Continue.|Answer Ana 2]]
+
+:: Answer Ana 2
+
+<div class="textchat">
+<p class="them">doin' ok?</p>
+<p class="you">I just feel out of place here.</p>
+<p class="them">still, try to enjoy the night.</p>
+<p class="them">smooch that guy with a crush on u.</p>
+<p class="them">t4t hare x dairy action.</p>
+<p class="them">charm ur boss into that promotion ur gunning for.</p>
+<p class="you">Me, charm?</p>
+<p class="you">You're just glad I'm out of the house.</p>
+<p class="them">that obvious? lol</p>
+<p class="them">i just don't get a lot of chances to hang out with ivy.</p>
+<p class="them">ik she scares you, but she's not a bad gal.</p>
+</div>
+
+* [[Continue.|Answer Ana 3]]
+
+:: Answer Ana 3
+
+<div class="textchat">
+<p class="you">I know. I just can't get over the whole "eats people" thing.</p>
+<p class="them">hol, *i* eats people.</p>
+<p class="them">you literally have a pred kink</p>
+<p class="you">Yeah, but you're like, cool about it...?</p>
+<p class="you">Idk. Let's talk about it later.</p>
+<p class="them">k. but eventually i want u to be comfortable with my hot anaconda gf.</p>
+<p class="you">I will. Enjoy your date!</p>
+</div>
+
+* [[Answer Houston.]]
+
+:: Answer Houston.
+
+You open the text from your work buddy.
+
+<div class="textchat">
+<p class="them houston">hey hol, r u at the holiday party?</p>
+<p class="you">Yeah, I am.</p>
+<p class="them houston">phew, was worried you got gulped or stepped on by some CEO, lol</p>
+<p class="you">Nah, just kinda spaced out.</p>
+</div>
+
+* [[Continue.|Answer Houston 2]]
+
+:: Answer Houston 2
+
+<div class="textchat">
+<p class="them houston">you should come say hi! i'm near the stage.</p>
+<p class="you">Okay, I'll try and swing by.</p>
+<p class="them houston">ya, we should watch the ball drop.</p>
+<p class="them houston">just don't get your hopes up on kissing me.</p>
+<p class="them houston">i'm flattered and all but yk i don't swing that way.</p>
+<p class="them houston">no sir/ma'am/mx, beef only for me thanks.</p>
+<p class="you">Project much?</p>
+<p class="them">(c;</p>
+<p class="them houston">^ hot guy with a nose ring</p>
+<p class="you">Nevermind I'll find a CEO to step on me.</p>
+<p class="them">)c;</p>
+<p class="them houston">u seen Lenox btw? boss woman was looking for you.</p>
+<p class="you">No, not yet. I'll keep an eye out.</p>
+<p class="them houston">kk. just don't leave me hanging.</p>
+</div>
+
+* [[Look for Houston.]]
+
+:: Look for Houston.
+The bar is on the other side of the room.
+
+You hold your breath, and begin working your way toward the stage, traversing through the labyrinth of table legs and chair legs and anthro legs, careful not to step on any footpaws or claws.
+
+It's basically second nature to you at this point. You come up against a table with three wolves, who you recognize as the heads of the R&D department. You know one of them is named Randall... Because he hit on you during the week you were hired.
+
+You decide to go...
+
+* [[East.]]
+* [[West.]]
+
+:: East.
+
+You pass a table where a serious-looking hawk (Guile Fletcher, chief information officer) and a badger (Anderson Stone, senior director of global relations) are laughing and patting each other on the back.
+
+* [[East again.|East 2]]
+* [[West this time.|West.]]
+
+:: East 2
+
+As you traverse the floor, you pass by a fellow rabbit who is walking between tables carrying a platter of those little toothpick meatballs with sweet and sour sauce. She's wearing a gold ribbon around her neck, and a wristband that says "CATERING" in big letters. The rest of her is... naked. You can tell from her uniform that the poor girl is also on the menu. This really *is* a fancy party.
+
+You give an awkward little wave, and she returns it with a wistful half-smile and gestures with the tray as if to offer you a meatball, which you politely decline.
+
+* [[Hi, I'm Hollis. What's your name?|Introduce self to prey rabbit]]
+
+:: Introduce self to prey rabbit
+<% s.passageName = "Hi, I'm-" %>
+
+You open your mouth to introduce yourself to the rabbit...
+
+And then Guile the hawk scoops her up and swallows her whole. The platter crashes messily to the floor where she stood. You feel the slightest tingle of a nosebleed as she is effortlessly gulped down and disappeared beneath a sports coat. Burp.
+
+Dammit. Why is it so hard to make friends at work???
+
+* [[Find Houston.]]
+
+:: West.
+
+You pass a table where two older women, a kindly-looking Komondor dog and a grumpy rattlesnake (Marnie and Jeanie, the heads of HR) are gently nursing their drinks.
+
+* [[West again.|West 2]]
+* [[East this time.|East 3]]
+
+:: West 2
+
+Marnie the Komondor stops you with a wave. "Oh, hi Holly! Happy new year!" she says with a smile, and grabs you into a unprompted hug. Her long fringe is very soft. "I'm glad to see you're still with us after so many months! Let me know if there's anything I can do to help, okay?"
+
+Marnie was very helpful as you were being hired. Although she did make a big deal out of respecting your pronouns, and she keep asking you if you were "really really sure" that an "sweet little bunny like you" wants to work in a "big scary office". That was a bit... unpleasant.
+
+* [[Find Houston.]]
+
+:: East 3
+
+Jeanie the rattlesnake narrows her eyes and flicks her tongue at you as you pass. You don't know a lot about her, but you've heard that she prefers to handle "restructurings". You've watched enough porn to know what that's a euphemism for.  
+
+"Happy new year, Holliss... Sssay, were you the one who ssubmitted an anonymous ssafety complaint... about our above-average number of prey employee disappearances?"
+
+Gulp.
+
+* [[Y-yeah?|Yes, it was me.]]
+* [[N-no?|Nope, wasn't me.]]
+
+:: Yes, it was me.
+She smiles. Why did you say that?
+
+"I jusst wanted to let you know... We conducted a thorough invesstigation and found our rate is actually average for a corporation of our ssize... Industry research shows that ssome number of devourings is natural and healthy for morale... We also found no evidence that the 11 interns and 3 employees digessted this year did not voluntarily consent to doing sso... And their families were compenssated generously."
+
+Gods, she's scary.
+
+* [[O-okay!|Nope, wasn't me.]]
+
+:: Nope, wasn't me.
+
+Her rattle shakes. "Carry on then."
+
+* [[Find Houston.]]
+
+:: Find Houston.
+
+Finally, you make it to the bar.
+
+Sitting there is a seven foot tall cow man, about your age. His enormous ass eclipses the poor stool's face. Two thick, curved horns rise from the side of his head. The sleeves of his dress shirt are rolled up to expose his muscular furry arms, and a bit of sweat is causing it to cling to his chest and belly—you can smell his cologne from here.
+
+His cheeks and snout are a bit flushed. In his hand is a tall glass which appears to contain... six vodka cranberries. The cat serving drinks seems a bit annoyed with him.
+
+* [[Howdy, Houston.]]
+
+:: Howdy, Houston.
+
+He notices you, and chugs the remainder of the drink, chewing the mint a bit before swallowing with a refreshed "haaah" and wiping his mouth on his wrist fur.
+
+<span.houston>"Howdy Hol,"</span> Houston says, flashing you a cocky, drunken smile, <span.houston>"Glad you could make it. Wanna sit?"</span>
+
+Gods above. You want him to do terrible things to you.
+
+## End of Chapter 5
 
 <% StoryFlags.set("unlockedChapter4"); %>
 
-* [[Title screen.]]
+* [[Title screen|Start]]
+

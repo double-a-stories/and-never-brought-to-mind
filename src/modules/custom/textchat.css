@@ -1,0 +1,48 @@
+/* textchat.css */
+/* Styles used by Lacey's epilogue */
+
+.textchat {
+    padding: 1rem;
+    font-size: smaller;
+    font-family: Roboto, sans-serif;
+    background: white;
+    border: 1px solid var(--light);
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textchat_title {
+    align-self: stretch;
+    text-align: center;
+}
+
+.textchat > p {
+  border-radius: 1em;
+  padding: 0.5rem;
+  background-color: #ddd;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.textchat .you {
+  align-self: flex-end;
+}
+
+.textchat p.you {
+  color: white;
+  --light: rgba(255, 255, 255, 0.7);
+  background: #66d;
+  border-bottom-right-radius: 0;
+}
+
+.textchat .them {
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+
+.textchat .placeholder-img {
+  width: 20rem; height: 15rem;
+}
