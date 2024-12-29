@@ -65,12 +65,15 @@ const Templates = (window.Templates = window.T = {});
     }
 </div>`;
 
-const contact = ({ name, pronouns, species, email, position, status }) => `<div class="social-card">
+const contact = ({ icon, name, pronouns, species, email, position, status }) => `<div class="social-card">
+<img class="social-card-icon" src="assets/images/contact/${icon}.webp">
+<div class="social-card-body">
 <div><b>${name}</b> <small>${pronouns ?? ""}</small></div>
 <div><small><b>Species:</b> ${species}</small></div>
 <div><small><b>Position:</b> ${position}</small></div>
 <div><small><b>Email:</b> ${email}</small></div>
-</div>`
+</div>
+</div>`;
 
   Object.assign(window.Templates, {
     CWI: contentWarningInline,

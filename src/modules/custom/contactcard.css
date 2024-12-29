@@ -6,6 +6,7 @@
   }
   
   .social-card {
+    display: flex;
     font-family: var(--font-family-sans-serif);
     padding: 1rem;
     font-size: smaller;
@@ -14,8 +15,15 @@
     border: 1px solid var(--light);
     margin-bottom: 1rem;
     box-sizing: border-box;
-    cursor: default;
+    align-items: center;
   }
+  .social-card-icon {
+    width: 100px;
+    height: auto;
+    margin: 1rem;
+    margin-right: 2rem;
+  }
+
   .social-card small {
     opacity: 0.7;
   }

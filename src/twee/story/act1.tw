@@ -40,17 +40,17 @@
 
 :: And Never Brought to Mind.
 
-Your name is Hollis Freely, they/them. You are a dwarf gray rabbit. Against all odds, you have survived into your mid-20s without being devoured, which is remarkably rare for a creature of your size.
+Your name is Hollis. You are a dwarf gray rabbit. Against all odds, you have survived into your mid-20s without being devoured, which is remarkably rare for a creature of your size.
 
 You are wearing round glasses and a cute black turtleneck. In your paw is a little martini glass.
 
-You're alone at the company New Years' party, and having a horrible time. You're standing on the sidelines, and staring out at a bustling crowd of unfamiliar and preposterously wealthy faces. It's about three hours till midnight.
+You're alone at the company New Years' party, standing on the sidelines, and staring out at a bustling crowd of unfamiliar and preposterously wealthy faces. It's about three hours till midnight. You're having a terrible night. Unfortunately, it will also be your last.
 
 What will you do?
 
 * [[Sip drink.]]
 
-<%= T.contact({ name: "Hollis Freely", pronouns: "they/them", species: "Rabbit \\[NOTE\\: EMPLOYEE. DO NOT EAT !!!\\]", email: "hfree@paleo.nic", position: "Software Developer, Web", status: "🔕 Do Not Disturb" }) %>
+<%= T.contact({ icon: "bunny", name:  "Holly Freely", pronouns: "they/them", species: "Rabbit (Oryctolagus cuniculus)", email: "hfree@paleo.nic", position: "Software Developer, Web", status: "🔕 Do Not Disturb" }) %>
 
 :: Sip drink.
 You awkwardly nurse your one complimentary drink of the evening. Vodka, gin, cranberry juice, and mint. Yum. You better take it slow though, you're a lightweight. As in, extremely light. Like, 60 pounds.
@@ -177,23 +177,23 @@ You pass a table where a serious-looking hawk and a badger are laughing and patt
 * [[East again.|East 2]]
 * [[West this time.|West.]]
 
-<%= T.contact({ name: "Guile Fletcher", species: "Red-tailed hawk", email: "gletch@paleo.nic", position: "Chief Information Officer, Southwest", status: "🤝 Winning friends and influencing people." }) %>
-<%= T.contact({ name: "Anderson Stone", species: "Honey badger", email: "astone@paleo.nic", position: "Senior Director of Relations, Global", status: "🦡 Forming powerful and effective habits." }) %>
+<%= T.contact({ icon: "hawk", name:  "Guile Fletcher", species: "Red-tailed hawk", email: "gletch@paleo.nic", position: "Chief Information Officer, Southwest", status: "🤝 Winning friends and influencing people." }) %>
+<%= T.contact({ icon: "badger", name:  "Anderson Stone", species: "Honey badger", email: "astone@paleo.nic", position: "Senior Director of Relations, Global", status: "🦡 Forming powerful and effective habits." }) %>
 
 :: East 2
 
 As you pass the table, you're surprised to pass by a waitress who is a fellow rabbit. She's carrying a platter of those little toothpick meatballs with sweet and sour sauce. There's a yellow bandana around her neck, and a yellow wristband that reads "CATERED" in big letters. The rest of her is... naked. This really *is* a fancy party.
 
-"Oh, hey," she says, with a curious half-smile. "I didn't know other rabbits even worked here, except as food. Meatball?"
+"Oh, hey," she says, with a curious half-smile. "I didn't know any rabbits worked here. Meatball? They're vegan."
 
 You politely decline. You had a bad experience once.
 
-"...With meatballs? They're uh, vegan."
+"...With meatballs?"
 
-* [[Uh, long story.|Introduce self to prey rabbit]]
+* [[Long story...|Introduce self to prey rabbit]]
 * [[What's your name?|Introduce self to prey rabbit]]
 
-<%= T.contact({ name: "Aleuria Button [CONSUMABLE]", pronouns: "it/its", species: "Rabbit", email: "\\[Temporary employee. Contact Events &amp;amp; Catering with concerns.\\]", position: "Catered Meal" }) %>
+<%= T.contact({ icon: "bunnyfood", name:  "Aleuria Button", pronouns: "consumable", species: "Rabbit", email: "[Temporary employee. Contact Events & Catering with concerns.]", position: "Catered Meal" }) %>
 
 :: Introduce self to prey rabbit
 <% s.passageName = "Wh-" %>
@@ -210,13 +210,13 @@ Dammit. Why is it so hard to make friends at work???
 
 :: West.
 
-You pass a table where two older women—a kindly-looking Komondor and a grumpy rattlesnake—are quietly enjoying their drinks and chatting conspiratorially.
+You pass a table where two older women from the HR department—a kindly-looking Komondor and a grumpy rattlesnake—are quietly enjoying their drinks and chatting conspiratorially.
 
 * [[West again.|West 2]]
 * [[East this time.|East 3]]
 
-<%= T.contact({ name: "Marnie Fop", species: "Dog, Domestic", pronouns: "she/her", email: "mfop@paleo.nic", position: "Personnel Resources Coordinator", status: "🤝 Winning friends and influencing people." }) %>
-<%= T.contact({ name: "Jeanie Adamanteus", pronouns: "she/her", species: "Eastern diamondback rattlesnake", email: "jadam@paleo.nic", position: "Personnel Resources Manager" }) %>
+<%= T.contact({ icon: "komondor", name:  "Marnie Fop", species: "Dog, Domestic", pronouns: "she/her", email: "mfop@paleo.nic", position: "Personnel Resources Coordinator", status: "🤝 Winning friends and influencing people." }) %>
+<%= T.contact({ icon: "snake", name:  "Jeanie Adamanteus", pronouns: "she/her", species: "Eastern diamondback rattlesnake", email: "jadam@paleo.nic", position: "Personnel Resources Manager" }) %>
 
 :: West 2
 
@@ -264,17 +264,23 @@ His cheeks and snout are a bit flushed. In his hand is a tall glass which appear
 
 * [[Howdy, Houston.]]
 
-<%= T.contact({ name: "Houston Bos", pronouns: "he/they", species: "Cow \\[NOTE: PREFERS 'OX'\\]", email: "jadam@paleo.nic", position: "Personnel Resources Manager" }) %>
+<%= T.contact({ icon: "ox", name:  "Houston Bos", pronouns: "he/they", species: "Cow \\[NOTE: PREFERS 'OX'\\]", email: "houbo@paleo.nic", position: "Software Engineer" }) %>
 
 :: Howdy, Houston.
 
-He notices you, and chugs the remainder of the drink, chewing the mint a bit before swallowing with a refreshed "haaah" and wiping his mouth on his wrist fur.
-
-<span.houston>"Howdy Hol,"</span> Houston says, flashing you a cocky, drunken smile, <span.houston>"Glad you could make it. Wanna sit?"</span>
+He notices you, and chugs the remainder of the drink, chewing the mint a bit before swallowing with a refreshed "haaah" and wiping his mouth on his wrist fur, then scratches his fat gut.
 
 Gods above. You want him to do terrible things to you.
 
-## End of Chapter 5
+<span.houston>"Howdy Hol,"</span> Houston says, flashing you a cocky, drunken smile, <span.houston>"Glad you could make it. Wanna sit?"</span>
+
+You take the stool next to him. He nods to the bartender, who refreshes your glass.
+
+* [[Get shitfaced because you're nervous.]]
+
+:: Get shitfaced because you're nervous.
+
+### End of Chapter 5
 
 <% StoryFlags.set("unlockedChapter4"); %>
 
