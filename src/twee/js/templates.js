@@ -51,9 +51,9 @@ const Templates = (window.Templates = window.T = {});
     likeCount,
     comments,
   }) =>
-    `<div class="social-card">
+    `<div class="contact-card">
     <p>${name} <small>${username} – ${time}</small></p>
-    <div class="social-card__body">${body}</div>
+    <div class="contact-card__body">${body}</div>
     <p><small>${(hashtags || []).map(hashtag).join(" ")}</small>
     ${likes(likeCount)}
     ${
@@ -64,6 +64,13 @@ const Templates = (window.Templates = window.T = {});
         : ``
     }
 </div>`;
+
+const contact = ({ name, pronouns, species, email, position, status }) => `<div class="social-card">
+<div><b>${name}</b> <small>${pronouns ?? ""}</small></div>
+<div><small><b>Species:</b> ${species}</small></div>
+<div><small><b>Position:</b> ${position}</small></div>
+<div><small><b>Email:</b> ${email}</small></div>
+</div>`
 
   Object.assign(window.Templates, {
     CWI: contentWarningInline,
@@ -78,5 +85,6 @@ const Templates = (window.Templates = window.T = {});
     hashtag,
     minutesAgo,
     socialMediaCard,
+    contact,
   });
 }

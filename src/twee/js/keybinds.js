@@ -14,13 +14,13 @@ keybinds.enabled = true;
  */
 keybinds.KEYBINDS_DOCS = `
 #### Navigation
-* <kbd>W</kbd> / <kbd>K</kbd> — *Select previous.*
-* <kbd>S</kbd> / <kbd>J</kbd> — *Select next.*
-* <kbd>E</kbd> / <kbd>␣</kbd> — *Use selected link.*
+* <kbd>W</kbd> / <kbd>K</kbd> — *Up*
+* <kbd>A</kbd> / <kbd>H</kbd> — *Undo*
+* <kbd>S</kbd> / <kbd>J</kbd> — *Down*
+* <kbd>D</kbd> / <kbd>L</kbd> — *Redo*
+* <kbd>E</kbd> / <kbd>Space</kbd> — *Select*
 
 #### Time travel
-* <kbd>A</kbd> / <kbd>H</kbd> — *Undo last command.*
-* <kbd>D</kbd> / <kbd>L</kbd> — *Redo last command.*
 `;
 
 const KEYBIND_THROTTLE = 100; /* ms */

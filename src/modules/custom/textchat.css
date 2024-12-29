@@ -27,6 +27,11 @@
   margin-bottom: 0.25rem;
 }
 
+.textchat > h3 {
+  margin-top: 0;
+  align-self: center;
+}
+
 .textchat .you {
   align-self: flex-end;
 }

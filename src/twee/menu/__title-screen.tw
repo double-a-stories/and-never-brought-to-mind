@@ -33,7 +33,7 @@ tw-passage > * {
 StoryFlags.set("unlockedChapter5")
 
 const chapters = [
-  [5, "Chapter 5", "Chapter 5 – Introduction"],
+  [5, "Chapter 5", "Chapter 5 – Intro"],
   [4, "Chapter 4", "Chapter 4 – Houston"],
   [3, "Chapter 3", "Chapter 3 – Marnie"],
   [2, "Chapter 2", "Chapter 2 – Dashel"],
